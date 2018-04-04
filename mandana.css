@@ -1,0 +1,61 @@
+/*
+* Mandana CSS Grid Framework by jopCode
+*/
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.col-1 {
+    grid-column: span 1 / span 12;
+}
+
+.col-2 {
+    grid-column: span 2 / span 12;
+}
+
+.col-3 {
+    grid-column: span 3 / span 12;
+}
+
+.col-4 {
+    grid-column: span 4 / span 12;
+}
+
+.col-5 {
+    grid-column: span 5 / span 12;
+}
+
+.col-6 {
+    grid-column: span 6 / span 12;
+}
+
+.col-7 {
+    grid-column: span 7 / span 12;
+}
+
+.col-8 {
+    grid-column: span 8 / span 12;
+}
+
+.col-9 {
+    grid-column: span 9 / span 12;
+}
+
+.col-10 {
+    grid-column: span 10 / span 12;
+}
+
+.col-11 {
+    grid-column: span 11 / span 12;
+}
+
+.col-12 {
+    grid-column: span 12 / span 12;
+}
+
+@media (max-width: 720px) {
+    .row [class^="col"] {
+        grid-column: span 12 / span 12;
+    }
+}
